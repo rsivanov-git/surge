@@ -1,0 +1,66 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/rsivanov-git/surge/main/Netflix-Proxy.sgmodule
+#!name=Netflix Proxy
+#!desc=
+
+[Rule]
+# DNS Servers
+DOMAIN,1.1.1.2,PROXY-NETFLIX
+DOMAIN-SUFFIX,netflix.com,PROXY-NETFLIX
+DOMAIN-SUFFIX,netflix.net,PROXY-NETFLIX
+DOMAIN-SUFFIX,nflxext.com,PROXY-NETFLIX
+DOMAIN-SUFFIX,nflximg.com,PROXY-NETFLIX
+DOMAIN-SUFFIX,nflximg.net,PROXY-NETFLIX
+DOMAIN-SUFFIX,nflxsearch.net,PROXY-NETFLIX
+DOMAIN-SUFFIX,nflxso.net,PROXY-NETFLIX
+DOMAIN-SUFFIX,nflxvideo.net,PROXY-NETFLIX
+DOMAIN-SUFFIX,netflixdnstest0.com,PROXY-NETFLIX
+DOMAIN-SUFFIX,netflixdnstest1.com,PROXY-NETFLIX
+DOMAIN-SUFFIX,netflixdnstest2.com,PROXY-NETFLIX
+DOMAIN-SUFFIX,netflixdnstest3.com,PROXY-NETFLIX
+DOMAIN-SUFFIX,netflixdnstest4.com,PROXY-NETFLIX
+DOMAIN-SUFFIX,netflixdnstest5.com,PROXY-NETFLIX
+DOMAIN-SUFFIX,netflixdnstest6.com,PROXY-NETFLIX
+DOMAIN-SUFFIX,netflixdnstest7.com,PROXY-NETFLIX
+DOMAIN-SUFFIX,netflixdnstest8.com,PROXY-NETFLIX
+DOMAIN-SUFFIX,netflixdnstest9.com,PROXY-NETFLIX
+DOMAIN-SUFFIX,netflixdnstest10.com,PROXY-NETFLIX
+
+[Host]
+netflix.com = server:https://1.1.1.2/dns-query
+*.netflix.com = server:https://1.1.1.2/dns-query
+netflix.net = server:https://1.1.1.2/dns-query
+*.netflix.net = server:https://1.1.1.2/dns-query
+nflxext.com = server:https://1.1.1.2/dns-query
+*.nflxext.com = server:https://1.1.1.2/dns-query
+nflximg.com = server:https://1.1.1.2/dns-query
+*.nflximg.com = server:https://1.1.1.2/dns-query
+nflximg.net = server:https://1.1.1.2/dns-query
+*.nflximg.net = server:https://1.1.1.2/dns-query
+nflxsearch.net = server:https://1.1.1.2/dns-query
+*.nflxsearch.net = server:https://1.1.1.2/dns-query
+nflxso.net = server:https://1.1.1.2/dns-query
+*.nflxso.net = server:https://1.1.1.2/dns-query
+nflxvideo.net = server:https://1.1.1.2/dns-query
+*.nflxvideo.net = server:https://1.1.1.2/dns-query
+netflixdnstest0.com = server:https://1.1.1.2/dns-query
+*.netflixdnstest0.com = server:https://1.1.1.2/dns-query
+netflixdnstest1.com = server:https://1.1.1.2/dns-query
+*.netflixdnstest1.com = server:https://1.1.1.2/dns-query
+netflixdnstest2.com = server:https://1.1.1.2/dns-query
+*.netflixdnstest2.com = server:https://1.1.1.2/dns-query
+netflixdnstest3.com = server:https://1.1.1.2/dns-query
+*.netflixdnstest3.com = server:https://1.1.1.2/dns-query
+netflixdnstest4.com = server:https://1.1.1.2/dns-query
+*.netflixdnstest4.com = server:https://1.1.1.2/dns-query
+netflixdnstest5.com = server:https://1.1.1.2/dns-query
+*.netflixdnstest5.com = server:https://1.1.1.2/dns-query
+netflixdnstest6.com = server:https://1.1.1.2/dns-query
+*.netflixdnstest6.com = server:https://1.1.1.2/dns-query
+netflixdnstest7.com = server:https://1.1.1.2/dns-query
+*.netflixdnstest7.com = server:https://1.1.1.2/dns-query
+netflixdnstest8.com = server:https://1.1.1.2/dns-query
+*.netflixdnstest8.com = server:https://1.1.1.2/dns-query
+netflixdnstest9.com = server:https://1.1.1.2/dns-query
+*.netflixdnstest9.com = server:https://1.1.1.2/dns-query
+netflixdnstest10.com = server:https://1.1.1.2/dns-query
+*.netflixdnstest10.com = server:https://1.1.1.2/dns-query
