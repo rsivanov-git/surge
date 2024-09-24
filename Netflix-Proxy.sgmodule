@@ -1,6 +1,6 @@
 #!MANAGED-CONFIG https://raw.githubusercontent.com/rsivanov-git/surge/main/Netflix-Proxy.sgmodule
 #!name=Netflix Proxy
-#!desc=
+#!desc=Routes all netflix traffic through PROXY-NETFLIX
 
 [Rule]
 # DNS Servers
