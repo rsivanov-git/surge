@@ -1,6 +1,6 @@
 #!MANAGED-CONFIG https://raw.githubusercontent.com/rsivanov-git/surge/main/Netflix-SmartDNS.sgmodule
 #!name=Netflix Smart DNS
-#!desc=
+#!desc=Routes all netflix traffic through DIRECT, using Smart DNS configured on the home router
 
 [Rule]
 DOMAIN-SUFFIX,netflix.com,DIRECT
