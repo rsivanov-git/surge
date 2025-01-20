@@ -1,0 +1,55 @@
+# BY & KZ
+DOMAIN-SUFFIX,by,DIRECT
+DOMAIN-SUFFIX,kz,DIRECT
+# Docker mirrors
+DOMAIN-SUFFIX,mirror.gcr.io,DIRECT
+# Twitch
+DOMAIN-SUFFIX,twitch.tv,DIRECT
+DOMAIN-SUFFIX,live-video.net,DIRECT
+DOMAIN-SUFFIX,ttvnw.net,DIRECT
+# Apple
+DOMAIN-SUFFIX,aaplimg.com,DIRECT
+DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT
+DOMAIN-SUFFIX,apple-mapkit.com,DIRECT
+DOMAIN-SUFFIX,apple.co,DIRECT
+DOMAIN-SUFFIX,apple.com,DIRECT
+DOMAIN-SUFFIX,apple.news,DIRECT
+DOMAIN-SUFFIX,appstore.com,DIRECT
+DOMAIN-SUFFIX,appsto.re,DIRECT
+DOMAIN-SUFFIX,appleiphonecell.com,DIRECT
+DOMAIN-SUFFIX,itunes.com,DIRECT
+DOMAIN-SUFFIX,itunes-apple.com,DIRECT
+DOMAIN-SUFFIX,cdn-apple.com,DIRECT
+DOMAIN-SUFFIX,crashlytics.com,DIRECT
+DOMAIN-SUFFIX,icloud-content.com,DIRECT
+DOMAIN-SUFFIX,icloud.com,DIRECT
+DOMAIN-SUFFIX,gateway.icloud.com,DIRECT
+DOMAIN-SUFFIX,me.com,DIRECT
+DOMAIN-SUFFIX,mzstatic.com,DIRECT
+DOMAIN-SUFFIX,apple-dns.net,DIRECT
+# Zoom
+DOMAIN-SUFFIX,zoom.us,DIRECT
+# WhatsApp
+DOMAIN-SUFFIX,whatsapp.net,DIRECT
+DOMAIN-SUFFIX,whatsapp.com,DIRECT
+# Telegram
+DOMAIN-SUFFIX,t.me,DIRECT
+DOMAIN-SUFFIX,tdesktop.com,DIRECT
+DOMAIN-SUFFIX,telegra.ph,DIRECT
+DOMAIN-SUFFIX,telegram.me,DIRECT
+DOMAIN-SUFFIX,telegram.org,DIRECT
+DOMAIN-SUFFIX,telesco.pe,DIRECT
+# Babbel
+DOMAIN-SUFFIX,babbel.com,DIRECT
+# Busuu
+DOMAIN-SUFFIX,busuu.com,DIRECT
+# Duolingo
+DOMAIN-SUFFIX,duolingo.com,DIRECT
+# OneDrive
+DOMAIN-SUFFIX,my.microsoftpersonalcontent.com,DIRECT
+# Misc
+DOMAIN-SUFFIX,vfsglobal.com,DIRECT
+DOMAIN-SUFFIX,izi.me,DIRECT
+DOMAIN-SUFFIX,iziyo.xyz,DIRECT
+DOMAIN-SUFFIX,quantum-a.io,DIRECT
+DOMAIN-SUFFIX,coinbase.com,DIRECT
