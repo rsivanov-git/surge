@@ -1,0 +1,47 @@
+# Russian sites
+DOMAIN-SUFFIX,ru
+DOMAIN-SUFFIX,xn--p1ai
+DOMAIN-SUFFIX,su
+# Licard
+DOMAIN-SUFFIX,licard.com,DIRECT
+# Avito
+DOMAIN-SUFFIX,avito.st,DIRECT
+# Netmonet
+DOMAIN-SUFFIX,netmonet.co,DIRECT
+# Yandex
+DOMAIN-SUFFIX,yandex.net
+DOMAIN-SUFFIX,yandex-bank.net
+DOMAIN-SUFFIX,yandex.com
+DOMAIN-SUFFIX,yandexmetrica.com
+DOMAIN-SUFFIX,yandexadexchange.net
+DOMAIN-SUFFIX,cr.yandex
+# Yandex taxi
+DOMAIN-SUFFIX,yango.com
+DOMAIN-SUFFIX,taxitax.org
+DOMAIN-SUFFIX,rostaxi.org
+# Ozon
+DOMAIN-SUFFIX,ozonusercontent.com
+# VK
+DOMAIN-SUFFIX,mvk.com
+DOMAIN-SUFFIX,userapi.com
+DOMAIN-SUFFIX,vk-cdn.me
+DOMAIN-SUFFIX,vk-cdn.net
+DOMAIN-SUFFIX,vk-portal.net
+DOMAIN-SUFFIX,vk.cc
+DOMAIN-SUFFIX,vk.com
+DOMAIN-SUFFIX,vk.design
+DOMAIN-SUFFIX,vk.link
+DOMAIN-SUFFIX,vk.me
+DOMAIN-SUFFIX,vkcache.com
+DOMAIN-SUFFIX,vkgo.app
+DOMAIN-SUFFIX,vklive.app
+DOMAIN-SUFFIX,vkmessenger.com
+DOMAIN-SUFFIX,vkmessenger.app
+DOMAIN-SUFFIX,vkuseraudio.com
+DOMAIN-SUFFIX,vkuserlive.net
+DOMAIN-SUFFIX,vkuservideo.com
+DOMAIN-SUFFIX,vkuservideo.net
+# Misc
+DOMAIN-SUFFIX,wylsa.com
+DOMAIN-SUFFIX,wishmaster.me
+DOMAIN-SUFFIX,sberbank.com
