@@ -3,62 +3,7 @@
 #!desc=Routes all netflix traffic through DIRECT, using Smart DNS configured on the home router
 
 [Rule]
-DOMAIN-SUFFIX,netflix.com,DIRECT
-DOMAIN-SUFFIX,netflix.net,DIRECT
-DOMAIN-SUFFIX,nflxext.com,DIRECT
-DOMAIN-SUFFIX,nflximg.com,DIRECT
-DOMAIN-SUFFIX,nflximg.net,DIRECT
-DOMAIN-SUFFIX,nflxsearch.net,DIRECT
-DOMAIN-SUFFIX,nflxso.net,DIRECT
-DOMAIN-SUFFIX,nflxvideo.net,DIRECT
-DOMAIN-SUFFIX,netflixdnstest0.com,DIRECT
-DOMAIN-SUFFIX,netflixdnstest1.com,DIRECT
-DOMAIN-SUFFIX,netflixdnstest2.com,DIRECT
-DOMAIN-SUFFIX,netflixdnstest3.com,DIRECT
-DOMAIN-SUFFIX,netflixdnstest4.com,DIRECT
-DOMAIN-SUFFIX,netflixdnstest5.com,DIRECT
-DOMAIN-SUFFIX,netflixdnstest6.com,DIRECT
-DOMAIN-SUFFIX,netflixdnstest7.com,DIRECT
-DOMAIN-SUFFIX,netflixdnstest8.com,DIRECT
-DOMAIN-SUFFIX,netflixdnstest9.com,DIRECT
-DOMAIN-SUFFIX,netflixdnstest10.com,DIRECT
+RULE-SET,https://raw.githubusercontent.com/rsivanov-git/surge/main/Netflix.txt,DIRECT
 
 [Host]
-netflix.com = server:system
-*.netflix.com = server:system
-netflix.net = server:system
-*.netflix.net = server:system
-nflxext.com = server:system
-*.nflxext.com = server:system
-nflximg.com = server:system
-*.nflximg.com = server:system
-nflximg.net = server:system
-*.nflximg.net = server:system
-nflxsearch.net = server:system
-*.nflxsearch.net = server:system
-nflxso.net = server:system
-*.nflxso.net = server:system
-nflxvideo.net = server:system
-*.nflxvideo.net = server:system
-netflixdnstest0.com = server:system
-*.netflixdnstest0.com = server:system
-netflixdnstest1.com = server:system
-*.netflixdnstest1.com = server:system
-netflixdnstest2.com = server:system
-*.netflixdnstest2.com = server:system
-netflixdnstest3.com = server:system
-*.netflixdnstest3.com = server:system
-netflixdnstest4.com = server:system
-*.netflixdnstest4.com = server:system
-netflixdnstest5.com = server:system
-*.netflixdnstest5.com = server:system
-netflixdnstest6.com = server:system
-*.netflixdnstest6.com = server:system
-netflixdnstest7.com = server:system
-*.netflixdnstest7.com = server:system
-netflixdnstest8.com = server:system
-*.netflixdnstest8.com = server:system
-netflixdnstest9.com = server:system
-*.netflixdnstest9.com = server:system
-netflixdnstest10.com = server:system
-*.netflixdnstest10.com = server:system
+RULE-SET:https://raw.githubusercontent.com/rsivanov-git/surge/main/Netflix.txt = server:system
