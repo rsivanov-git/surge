@@ -1,7 +1,7 @@
 # Blocked russian sites
-DOMAIN-SUFFIX,exler.ru,PROXY
-DOMAIN-SUFFIX,theins.ru,PROXY
-DOMAIN-SUFFIX,habr.ru,PROXY
-DOMAIN-SUFFIX,habr.com,PROXY
+DOMAIN-SUFFIX,exler.ru
+DOMAIN-SUFFIX,theins.ru
+DOMAIN-SUFFIX,habr.ru
+DOMAIN-SUFFIX,habr.com
 # Apple
-DOMAIN-SUFFIX,apple-relay.apple.com,PROXY
+DOMAIN-SUFFIX,apple-relay.apple.com
