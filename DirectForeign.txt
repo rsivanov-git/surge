@@ -44,7 +44,6 @@ DOMAIN-SUFFIX,my.microsoftpersonalcontent.com
 DOMAIN-SUFFIX,vfsglobal.com
 DOMAIN-SUFFIX,izi.me
 DOMAIN-SUFFIX,iziyo.xyz
-DOMAIN-SUFFIX,quantum-a.io
 DOMAIN-SUFFIX,coinbase.com
 # Telegram
 DOMAIN-SUFFIX,t.me
