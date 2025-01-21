@@ -3,11 +3,11 @@ DOMAIN-SUFFIX,ru
 DOMAIN-SUFFIX,xn--p1ai
 DOMAIN-SUFFIX,su
 # Licard
-DOMAIN-SUFFIX,licard.com,DIRECT
+DOMAIN-SUFFIX,licard.com
 # Avito
-DOMAIN-SUFFIX,avito.st,DIRECT
+DOMAIN-SUFFIX,avito.st
 # Netmonet
-DOMAIN-SUFFIX,netmonet.co,DIRECT
+DOMAIN-SUFFIX,netmonet.co
 # Yandex
 DOMAIN-SUFFIX,yandex.net
 DOMAIN-SUFFIX,yandex-bank.net
