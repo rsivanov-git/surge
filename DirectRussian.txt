@@ -45,3 +45,4 @@ DOMAIN-SUFFIX,vkuservideo.net
 DOMAIN-SUFFIX,wylsa.com
 DOMAIN-SUFFIX,wishmaster.me
 DOMAIN-SUFFIX,sberbank.com
+DOMAIN-SUFFIX,quantum-a.io
