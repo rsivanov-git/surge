@@ -1,55 +1,69 @@
 # BY & KZ
-DOMAIN-SUFFIX,by,DIRECT
-DOMAIN-SUFFIX,kz,DIRECT
+DOMAIN-SUFFIX,by
+DOMAIN-SUFFIX,kz
 # Docker mirrors
-DOMAIN-SUFFIX,mirror.gcr.io,DIRECT
+DOMAIN-SUFFIX,mirror.gcr.io
 # Twitch
-DOMAIN-SUFFIX,twitch.tv,DIRECT
-DOMAIN-SUFFIX,live-video.net,DIRECT
-DOMAIN-SUFFIX,ttvnw.net,DIRECT
+DOMAIN-SUFFIX,twitch.tv
+DOMAIN-SUFFIX,live-video.net
+DOMAIN-SUFFIX,ttvnw.net
 # Apple
-DOMAIN-SUFFIX,aaplimg.com,DIRECT
-DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT
-DOMAIN-SUFFIX,apple-mapkit.com,DIRECT
-DOMAIN-SUFFIX,apple.co,DIRECT
-DOMAIN-SUFFIX,apple.com,DIRECT
-DOMAIN-SUFFIX,apple.news,DIRECT
-DOMAIN-SUFFIX,appstore.com,DIRECT
-DOMAIN-SUFFIX,appsto.re,DIRECT
-DOMAIN-SUFFIX,appleiphonecell.com,DIRECT
-DOMAIN-SUFFIX,itunes.com,DIRECT
-DOMAIN-SUFFIX,itunes-apple.com,DIRECT
-DOMAIN-SUFFIX,cdn-apple.com,DIRECT
-DOMAIN-SUFFIX,crashlytics.com,DIRECT
-DOMAIN-SUFFIX,icloud-content.com,DIRECT
-DOMAIN-SUFFIX,icloud.com,DIRECT
-DOMAIN-SUFFIX,gateway.icloud.com,DIRECT
-DOMAIN-SUFFIX,me.com,DIRECT
-DOMAIN-SUFFIX,mzstatic.com,DIRECT
-DOMAIN-SUFFIX,apple-dns.net,DIRECT
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,apple-mapkit.com
+DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apple.news
+DOMAIN-SUFFIX,appstore.com
+DOMAIN-SUFFIX,appsto.re
+DOMAIN-SUFFIX,appleiphonecell.com
+DOMAIN-SUFFIX,itunes.com
+DOMAIN-SUFFIX,itunes-apple.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,gateway.icloud.com
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,apple-dns.net
 # Zoom
-DOMAIN-SUFFIX,zoom.us,DIRECT
+DOMAIN-SUFFIX,zoom.us
 # WhatsApp
-DOMAIN-SUFFIX,whatsapp.net,DIRECT
-DOMAIN-SUFFIX,whatsapp.com,DIRECT
-# Telegram
-DOMAIN-SUFFIX,t.me,DIRECT
-DOMAIN-SUFFIX,tdesktop.com,DIRECT
-DOMAIN-SUFFIX,telegra.ph,DIRECT
-DOMAIN-SUFFIX,telegram.me,DIRECT
-DOMAIN-SUFFIX,telegram.org,DIRECT
-DOMAIN-SUFFIX,telesco.pe,DIRECT
+DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,whatsapp.com
 # Babbel
-DOMAIN-SUFFIX,babbel.com,DIRECT
+DOMAIN-SUFFIX,babbel.com
 # Busuu
-DOMAIN-SUFFIX,busuu.com,DIRECT
+DOMAIN-SUFFIX,busuu.com
 # Duolingo
-DOMAIN-SUFFIX,duolingo.com,DIRECT
+DOMAIN-SUFFIX,duolingo.com
 # OneDrive
-DOMAIN-SUFFIX,my.microsoftpersonalcontent.com,DIRECT
+DOMAIN-SUFFIX,my.microsoftpersonalcontent.com
 # Misc
-DOMAIN-SUFFIX,vfsglobal.com,DIRECT
-DOMAIN-SUFFIX,izi.me,DIRECT
-DOMAIN-SUFFIX,iziyo.xyz,DIRECT
-DOMAIN-SUFFIX,quantum-a.io,DIRECT
-DOMAIN-SUFFIX,coinbase.com,DIRECT
+DOMAIN-SUFFIX,vfsglobal.com
+DOMAIN-SUFFIX,izi.me
+DOMAIN-SUFFIX,iziyo.xyz
+DOMAIN-SUFFIX,quantum-a.io
+DOMAIN-SUFFIX,coinbase.com
+# Telegram
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telesco.pe
+IP-CIDR,91.108.56.0/22,no-resolve
+IP-CIDR,91.108.4.0/22,no-resolve
+IP-CIDR,91.108.8.0/22,no-resolve
+IP-CIDR,91.108.16.0/22,no-resolve
+IP-CIDR,91.108.12.0/22,no-resolve
+IP-CIDR,149.154.160.0/20,no-resolve
+IP-CIDR,91.105.192.0/23,no-resolve
+IP-CIDR,91.108.20.0/22,no-resolve
+IP-CIDR,185.76.151.0/24,no-resolve
+IP-CIDR6,2001:b28:f23d::/48,no-resolve
+IP-CIDR6,2001:b28:f23f::/48,no-resolve
+IP-CIDR6,2001:67c:4e8::/48,no-resolve
+IP-CIDR6,2001:b28:f23c::/48,no-resolve
+IP-CIDR6,2a0a:f280::/32,no-resolve
