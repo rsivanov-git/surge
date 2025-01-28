@@ -1,6 +1,9 @@
 # BY & KZ
 DOMAIN-SUFFIX,by
 DOMAIN-SUFFIX,kz
+# DeepSeek
+DOMAIN-SUFFIX,deepseek.com
+DOMAIN-SUFFIX,volces.com
 # Docker mirrors
 DOMAIN-SUFFIX,mirror.gcr.io
 # Twitch
