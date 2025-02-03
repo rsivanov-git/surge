@@ -1,9 +1,0 @@
-#!MANAGED-CONFIG https://raw.githubusercontent.com/rsivanov-git/surge/main/RaspberryPi-Local.sgmodule
-#!name=RaspberryPi Local
-#!desc=Resolves raspberrypi.local as 127.0.0.1
-
-[Rewrite]
-^https?://raspberrypi\.local/(.*) http://127.0.0.1/$1 302
-
-[Host]
-raspberrypi.local = 127.0.0.1
