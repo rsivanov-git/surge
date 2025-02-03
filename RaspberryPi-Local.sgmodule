@@ -1,1 +1,6 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/rsivanov-git/surge/main/RaspberryPi-Local.sgmodule
+#!name=RaspberryPi Local
+#!desc=Resolves raspberrypi.local as 127.0.0.1
 
+[Host]
+raspberrypi.local=127.0.0.1
