@@ -1,5 +1,4 @@
-# BY & KZ
-DOMAIN-SUFFIX,by
+# KZ
 DOMAIN-SUFFIX,kz
 # DeepSeek
 DOMAIN-SUFFIX,deepseek.com
