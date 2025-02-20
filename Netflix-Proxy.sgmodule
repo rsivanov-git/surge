@@ -4,8 +4,8 @@
 
 [Rule]
 # DNS Servers
-DOMAIN,1.1.1.2,PROXY-NETFLIX
+DOMAIN,one.one.one.one,PROXY-NETFLIX
 RULE-SET,https://raw.githubusercontent.com/rsivanov-git/surge/main/Netflix.txt,PROXY-NETFLIX
 
 [Host]
-RULE-SET:https://raw.githubusercontent.com/rsivanov-git/surge/main/Netflix.txt = server:https://1.1.1.2/dns-query
+RULE-SET:https://raw.githubusercontent.com/rsivanov-git/surge/main/Netflix.txt = server:https://one.one.one.one/dns-query
