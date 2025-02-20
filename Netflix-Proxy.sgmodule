@@ -4,8 +4,8 @@
 
 [Rule]
 # DNS Servers
-DOMAIN,1dot1dot1dot1.cloudflare-dns.com,PROXY-NETFLIX
+# DOMAIN,1dot1dot1dot1.cloudflare-dns.com,PROXY-NETFLIX
 RULE-SET,https://raw.githubusercontent.com/rsivanov-git/surge/main/Netflix.txt,PROXY-NETFLIX
 
 [Host]
-RULE-SET:https://raw.githubusercontent.com/rsivanov-git/surge/main/Netflix.txt = server:https://1dot1dot1dot1.cloudflare-dns.com/dns-query
+# RULE-SET:https://raw.githubusercontent.com/rsivanov-git/surge/main/Netflix.txt = server:https://1dot1dot1dot1.cloudflare-dns.com/dns-query
