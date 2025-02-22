@@ -1,0 +1,6 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/rsivanov-git/surge/main/Pandora-Proxy.sgmodule
+#!name=Pandora Proxy
+#!desc=Routes all Pandora traffic through PROXY-PANDORA
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/rsivanov-git/surge/main/Pandora.txt,PROXY-PANDORA
