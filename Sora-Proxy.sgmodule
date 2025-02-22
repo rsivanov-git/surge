@@ -3,10 +3,4 @@
 #!desc=Routes all Sora traffic through PROXY-SORA
 
 [Rule]
-# DNS Servers
-DOMAIN,1.0.0.2,PROXY-SORA
 DOMAIN-SUFFIX,sora.com,PROXY-SORA
-
-[Host]
-sora.com = server:https://1.0.0.2/dns-query
-*.sora.com = server:https://1.0.0.2/dns-query
