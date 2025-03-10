@@ -1,5 +1,7 @@
 # KZ
 DOMAIN-SUFFIX,kz
+# Kino.pub
+DOMAIN-SUFFIX,cdntogo.net
 # DeepSeek
 DOMAIN-SUFFIX,deepseek.com
 DOMAIN-SUFFIX,volces.com
