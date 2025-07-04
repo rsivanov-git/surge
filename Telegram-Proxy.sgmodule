@@ -1,0 +1,6 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/rsivanov-git/surge/main/Telegram-Proxy.sgmodule
+#!name=Telegram Proxy
+#!desc=Routes all telegram traffic through PROXY
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/rsivanov-git/surge/main/Telegram.txt,PROXY
