@@ -2,15 +2,8 @@
 DOMAIN-SUFFIX,kz
 # Kino.pub
 DOMAIN-SUFFIX,cdntogo.net
-# DeepSeek
-DOMAIN-SUFFIX,deepseek.com
-DOMAIN-SUFFIX,volces.com
 # Docker mirrors
 DOMAIN-SUFFIX,mirror.gcr.io
-# Twitch
-DOMAIN-SUFFIX,twitch.tv
-DOMAIN-SUFFIX,live-video.net
-DOMAIN-SUFFIX,ttvnw.net
 # Apple
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,apple-cloudkit.com
@@ -31,15 +24,9 @@ DOMAIN-SUFFIX,gateway.icloud.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,apple-dns.net
-# Zoom
-DOMAIN-SUFFIX,zoom.us
 # WhatsApp
 DOMAIN-SUFFIX,whatsapp.net
 DOMAIN-SUFFIX,whatsapp.com
-# Babbel
-DOMAIN-SUFFIX,babbel.com
-# Busuu
-DOMAIN-SUFFIX,busuu.com
 # Duolingo
 DOMAIN-SUFFIX,duolingo.com
 # OneDrive
