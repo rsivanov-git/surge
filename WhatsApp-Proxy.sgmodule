@@ -1,0 +1,6 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/rsivanov-git/surge/main/WhatsApp-Proxy.sgmodule
+#!name=WhatsApp Proxy
+#!desc=Routes all WhatsApp traffic through PROXY
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/rsivanov-git/surge/main/WhatsApp.txt,PROXY
