@@ -36,8 +36,6 @@ DOMAIN-SUFFIX,apple-support.akadns.net
 # WhatsApp
 DOMAIN-SUFFIX,whatsapp.net
 DOMAIN-SUFFIX,whatsapp.com
-# Duolingo
-DOMAIN-SUFFIX,duolingo.com
 # OneDrive
 DOMAIN-SUFFIX,my.microsoftpersonalcontent.com
 # Misc
