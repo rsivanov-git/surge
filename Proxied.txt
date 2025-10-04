@@ -4,7 +4,7 @@ DOMAIN-SUFFIX,theins.ru
 DOMAIN-SUFFIX,habr.ru
 DOMAIN-SUFFIX,habr.com
 # Apple
-DOMAIN-SUFFIX,itunes.apple.com
+#DOMAIN-SUFFIX,itunes.apple.com
 DOMAIN-SUFFIX,apple-relay.akamaized.net
 DOMAIN-SUFFIX,apple-relay.apple.com
 DOMAIN-SUFFIX,apple-relay.cloudflare.com
