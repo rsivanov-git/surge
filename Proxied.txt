@@ -9,4 +9,4 @@ DOMAIN-SUFFIX,apple-relay.apple.com
 DOMAIN-SUFFIX,apple-relay.cloudflare.com
 DOMAIN-SUFFIX,apple-relay.fastly-edge.com
 DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
-DOMAIN-WILDCARD,*-smp-device.apple.com
+DOMAIN-WILDCARD,*smp-device.apple.com
