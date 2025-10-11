@@ -1,3 +1,8 @@
+# WhatsApp calls
+DEST-PORT,3478
+DEST-PORT,3480
+DEST-PORT,3484
+DEST-PORT,5222
 # Telegram calls
 AND,((IP-CIDR,91.108.56.0/22,no-resolve), (PROTOCOL,UDP))
 AND,((IP-CIDR,91.108.4.0/22,no-resolve), (PROTOCOL,UDP))
