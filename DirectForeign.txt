@@ -1,5 +1,8 @@
 # KZ
 DOMAIN-SUFFIX,kz
+# Signal
+DOMAIN-SUFFIX,chat.signal.org
+DOMAIN-SUFFIX,whispersystems.org
 # Kino.pub
 DOMAIN-SUFFIX,cdntogo.net
 # Docker mirrors
