@@ -6,6 +6,8 @@ DOMAIN-SUFFIX,su
 DOMAIN-SUFFIX,emias.info
 # Licard
 DOMAIN-SUFFIX,licard.com
+# Tricolor
+DOMAIN-SUFFIX,tricolor.tv
 # Avito
 DOMAIN-SUFFIX,avito.st
 # Netmonet
