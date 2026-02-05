@@ -40,3 +40,97 @@ DOMAIN-SUFFIX,vfsglobal.com
 DOMAIN-SUFFIX,izi.me
 DOMAIN-SUFFIX,iziyo.xyz
 DOMAIN-SUFFIX,coinbase.com
+
+# Russian sites
+DOMAIN-SUFFIX,ru
+DOMAIN-SUFFIX,xn--p1ai
+DOMAIN-SUFFIX,su
+# Emias
+DOMAIN-SUFFIX,emias.info
+# Licard
+DOMAIN-SUFFIX,licard.com
+# Tricolor
+DOMAIN-SUFFIX,tricolor.tv
+# Avito
+DOMAIN-SUFFIX,avito.st
+# Netmonet
+DOMAIN-SUFFIX,netmonet.co
+# Yandex
+DOMAIN-SUFFIX,yandex
+DOMAIN-SUFFIX,yandex.net
+DOMAIN-SUFFIX,yandex-bank.net
+DOMAIN-SUFFIX,yandex.com
+DOMAIN-SUFFIX,yandexmetrica.com
+DOMAIN-SUFFIX,yandexadexchange.net
+DOMAIN-SUFFIX,naydex.net
+DOMAIN-SUFFIX,yandex-images.clstorage.net
+DOMAIN-SUFFIX,yandex.aero
+DOMAIN-SUFFIX,yandex.az
+DOMAIN-SUFFIX,yandex.by
+DOMAIN-SUFFIX,yandex.cloud
+DOMAIN-SUFFIX,yandex.co.il
+DOMAIN-SUFFIX,yandex.com.am
+DOMAIN-SUFFIX,yandex.com.ge
+DOMAIN-SUFFIX,yandex.com.tr
+DOMAIN-SUFFIX,yandex.com.ua
+DOMAIN-SUFFIX,yandex.de
+DOMAIN-SUFFIX,yandex.ee
+DOMAIN-SUFFIX,yandex.eu
+DOMAIN-SUFFIX,yandex.fi
+DOMAIN-SUFFIX,yandex.fr
+DOMAIN-SUFFIX,yandex.jobs
+DOMAIN-SUFFIX,yandex.kg
+DOMAIN-SUFFIX,yandex.kz
+DOMAIN-SUFFIX,yandex.lt
+DOMAIN-SUFFIX,yandex.lv
+DOMAIN-SUFFIX,yandex.md
+DOMAIN-SUFFIX,yandex.org
+DOMAIN-SUFFIX,yandex.pl
+DOMAIN-SUFFIX,yandex.st
+DOMAIN-SUFFIX,yandex.sx
+DOMAIN-SUFFIX,yandex.tj
+DOMAIN-SUFFIX,yandex.tm
+DOMAIN-SUFFIX,yandex.ua
+DOMAIN-SUFFIX,yandex.uz
+DOMAIN-SUFFIX,yandexcloud.net
+DOMAIN-SUFFIX,yandexcom.net
+DOMAIN-SUFFIX,yandexwebcache.org
+DOMAIN-SUFFIX,yastatic.net
+# Yandex taxi
+DOMAIN-SUFFIX,yango.com
+DOMAIN-SUFFIX,taxitax.org
+DOMAIN-SUFFIX,rostaxi.org
+# Ozon
+DOMAIN-SUFFIX,ozonusercontent.com
+# VK
+DOMAIN-SUFFIX,mradx.net
+DOMAIN-SUFFIX,mvk.com
+DOMAIN-SUFFIX,userapi.com
+DOMAIN-SUFFIX,vk-cdn.me
+DOMAIN-SUFFIX,vk-cdn.net
+DOMAIN-SUFFIX,vk-portal.net
+DOMAIN-SUFFIX,vk.cc
+DOMAIN-SUFFIX,vk.com
+DOMAIN-SUFFIX,vk.company
+DOMAIN-SUFFIX,vk.team
+DOMAIN-SUFFIX,vk.design
+DOMAIN-SUFFIX,vk.link
+DOMAIN-SUFFIX,vk.me
+DOMAIN-SUFFIX,vkcache.com
+DOMAIN-SUFFIX,vk-apps.com
+DOMAIN-SUFFIX,vkgo.app
+DOMAIN-SUFFIX,vklive.app
+DOMAIN-SUFFIX,vkmessenger.com
+DOMAIN-SUFFIX,vkmessenger.app
+DOMAIN-SUFFIX,vkuser.net
+DOMAIN-SUFFIX,vkuseraudio.net
+DOMAIN-SUFFIX,vkuseraudio.com
+DOMAIN-SUFFIX,vkuserlive.net
+DOMAIN-SUFFIX,vkuservideo.com
+DOMAIN-SUFFIX,vkuservideo.net
+
+# Misc
+DOMAIN-SUFFIX,wylsa.com
+DOMAIN-SUFFIX,wishmaster.me
+DOMAIN-SUFFIX,sberbank.com
+DOMAIN-SUFFIX,quantum-a.io
