@@ -6,6 +6,7 @@ DOMAIN-SUFFIX,habr.com
 # Apple
 DOMAIN-SUFFIX,weatherkit.apple.com
 DOMAIN-SUFFIX,weather-analytics-events.apple.com
+DOMAIN-SUFFIX,weather-map2.apple.com
 DOMAIN-SUFFIX,apple-relay.akamaized.net
 DOMAIN-SUFFIX,apple-relay.apple.com
 DOMAIN-SUFFIX,apple-relay.cloudflare.com
