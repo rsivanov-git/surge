@@ -4,13 +4,7 @@ DOMAIN-SUFFIX,theins.ru
 DOMAIN-SUFFIX,habr.ru
 DOMAIN-SUFFIX,habr.com
 # Apple
-DOMAIN-SUFFIX,xp.apple.com
-DOMAIN-SUFFIX,ls.apple.com
-DOMAIN-SUFFIX,gc.apple.com
 DOMAIN-SUFFIX,apps.apple.com
-DOMAIN-SUFFIX,guzzoni.apple.com
-DOMAIN-SUFFIX,smoot.apple.com
-DOMAIN-SUFFIX,device-config.pcms.apple.com
 DOMAIN-SUFFIX,music.apple.com
 DOMAIN-SUFFIX,itunes.apple.com
 DOMAIN-SUFFIX,mzstatic.com
