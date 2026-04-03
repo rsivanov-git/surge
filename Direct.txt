@@ -134,3 +134,6 @@ DOMAIN-SUFFIX,wylsa.com
 DOMAIN-SUFFIX,wishmaster.me
 DOMAIN-SUFFIX,sberbank.com
 DOMAIN-SUFFIX,quantum-a.io
+DOMAIN-SUFFIX,lmru.tech,DIRECT
+DOMAIN-SUFFIX,mradx.net,DIRECT
+DOMAIN-SUFFIX,2gis.com,DIRECT
