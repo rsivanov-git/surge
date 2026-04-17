@@ -1,6 +1,0 @@
-#!MANAGED-CONFIG https://raw.githubusercontent.com/rsivanov-git/surge/main/Sora-Proxy.sgmodule
-#!name=Sora Proxy
-#!desc=Routes all Sora traffic through PROXY-SORA
-
-[Rule]
-DOMAIN-SUFFIX,sora.com,PROXY-SORA
