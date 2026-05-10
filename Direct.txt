@@ -33,6 +33,9 @@ DOMAIN-SUFFIX,icloud.com.akadns.net
 DOMAIN-SUFFIX,apple.com.edgekey.net.globalredir.akadns.net
 DOMAIN-SUFFIX,apple-support.akadns.net
 
+# Aliexpress payments
+DOMAIN-SUFFIX,inplat-tech.com
+
 # OneDrive
 DOMAIN-SUFFIX,my.microsoftpersonalcontent.com
 # Misc
