@@ -42,7 +42,6 @@ DOMAIN-SUFFIX,my.microsoftpersonalcontent.com
 DOMAIN-SUFFIX,vfsglobal.com
 DOMAIN-SUFFIX,izi.me
 DOMAIN-SUFFIX,iziyo.xyz
-DOMAIN-SUFFIX,coinbase.com
 
 # Russian sites
 DOMAIN-SUFFIX,ru
