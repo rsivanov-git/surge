@@ -8,6 +8,12 @@ DOMAIN-SUFFIX,habr.com
 DOMAIN-SUFFIX,weatherkit.apple.com
 DOMAIN-SUFFIX,weather-analytics-events.apple.com
 DOMAIN-SUFFIX,weather-map2.apple.com
+DOMAIN-SUFFIX,pd.itunes.apple.com
+DOMAIN-SUFFIX,bag.itunes.apple.com
+DOMAIN-SUFFIX,amp-api.apps.apple.com
+DOMAIN-SUFFIX,amp-api-updates.apps.apple.com
+DOMAIN-SUFFIX,is1-ssl.mzstatic.com
+
 #DOMAIN-SUFFIX,apps.apple.com
 #DOMAIN-SUFFIX,music.apple.com
 #DOMAIN-SUFFIX,itunes.apple.com
