@@ -13,6 +13,7 @@ DOMAIN-SUFFIX,bag.itunes.apple.com
 DOMAIN-SUFFIX,amp-api.apps.apple.com
 DOMAIN-SUFFIX,amp-api-updates.apps.apple.com
 DOMAIN-SUFFIX,is1-ssl.mzstatic.com
+DOMAIN-SUFFIX,apps.mzstatic.com
 
 #DOMAIN-SUFFIX,apps.apple.com
 #DOMAIN-SUFFIX,music.apple.com
