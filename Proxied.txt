@@ -1,6 +1,4 @@
 # Blocked russian sites
-DOMAIN-SUFFIX,exler.ru
-DOMAIN-SUFFIX,theins.ru
 DOMAIN-SUFFIX,habr.ru
 DOMAIN-SUFFIX,habr.com
 
