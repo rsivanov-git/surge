@@ -9,6 +9,7 @@ DOMAIN-SUFFIX,weather-map2.apple.com
 DOMAIN,apple.com
 DOMAIN-SUFFIX,apps.apple.com
 DOMAIN-SUFFIX,music.apple.com
+DOMAIN-SUFFIX,media.apple.com
 DOMAIN-SUFFIX,itunes.apple.com
 DOMAIN-SUFFIX,mzstatic.com
 #DOMAIN-SUFFIX,apple-relay.akamaized.net
