@@ -12,10 +12,9 @@ DOMAIN-SUFFIX,music.apple.com
 DOMAIN-SUFFIX,media.apple.com
 DOMAIN-SUFFIX,itunes.apple.com
 DOMAIN-SUFFIX,mzstatic.com
-DOMAIN-SUFFIX,ifs-wpc-device.apple.com
 #DOMAIN-SUFFIX,apple-relay.akamaized.net
 #DOMAIN-SUFFIX,apple-relay.apple.com
 #DOMAIN-SUFFIX,apple-relay.cloudflare.com
 #DOMAIN-SUFFIX,apple-relay.fastly-edge.com
 #DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
-#DOMAIN-WILDCARD,*smp-device.apple.com
+DOMAIN-WILDCARD,*smp-device.apple.com
