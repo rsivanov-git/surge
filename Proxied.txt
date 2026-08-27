@@ -13,5 +13,5 @@ DOMAIN-SUFFIX,media.apple.com
 DOMAIN-SUFFIX,itunes.apple.com
 #DOMAIN-SUFFIX,gateway.icloud.com
 #DOMAIN-SUFFIX,icloud-content.com
-#DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-WILDCARD,*smp-device.apple.com
