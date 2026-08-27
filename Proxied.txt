@@ -6,6 +6,7 @@ DOMAIN-SUFFIX,habr.com
 DOMAIN-SUFFIX,weatherkit.apple.com
 DOMAIN-SUFFIX,weather-analytics-events.apple.com
 DOMAIN-SUFFIX,weather-map2.apple.com
+DOMAIN-SUFFIX,weather-edge.apple.com
 DOMAIN,apple.com
 DOMAIN-SUFFIX,apps.apple.com
 DOMAIN-SUFFIX,music.apple.com
