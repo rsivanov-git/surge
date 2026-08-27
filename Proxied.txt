@@ -11,7 +11,6 @@ DOMAIN-SUFFIX,apps.apple.com
 DOMAIN-SUFFIX,music.apple.com
 DOMAIN-SUFFIX,media.apple.com
 DOMAIN-SUFFIX,itunes.apple.com
-RULE-SET,https://surge.bojin.co/geosite/full/icloud
 #DOMAIN-SUFFIX,gateway.icloud.com
 #DOMAIN-SUFFIX,icloud-content.com
 #DOMAIN-SUFFIX,mzstatic.com
