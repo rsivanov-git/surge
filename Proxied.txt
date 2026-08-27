@@ -11,12 +11,8 @@ DOMAIN-SUFFIX,apps.apple.com
 DOMAIN-SUFFIX,music.apple.com
 DOMAIN-SUFFIX,media.apple.com
 DOMAIN-SUFFIX,itunes.apple.com
-DOMAIN-SUFFIX,gateway.icloud.com
-DOMAIN-SUFFIX,icloud-content.com
+RULE-SET,https://surge.bojin.co/geosite/full/icloud
+#DOMAIN-SUFFIX,gateway.icloud.com
+#DOMAIN-SUFFIX,icloud-content.com
 #DOMAIN-SUFFIX,mzstatic.com
-#DOMAIN-SUFFIX,apple-relay.akamaized.net
-#DOMAIN-SUFFIX,apple-relay.apple.com
-#DOMAIN-SUFFIX,apple-relay.cloudflare.com
-#DOMAIN-SUFFIX,apple-relay.fastly-edge.com
-#DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
 DOMAIN-WILDCARD,*smp-device.apple.com
