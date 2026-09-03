@@ -24,3 +24,4 @@ DOMAIN-SUFFIX,wishmaster.me
 DOMAIN-SUFFIX,quantum-a.io
 DOMAIN-SUFFIX,lmru.tech
 DOMAIN-SUFFIX,imdt.pro
+DOMAIN-SUFFIX,fintechru.org
