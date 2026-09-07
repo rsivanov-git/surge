@@ -26,3 +26,4 @@ DOMAIN-SUFFIX,lmru.tech
 DOMAIN-SUFFIX,imdt.pro
 DOMAIN-SUFFIX,fintechru.org
 DOMAIN-SUFFIX,rozetked.me
+DOMAIN-SUFFIX,curator.pro
