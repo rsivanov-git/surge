@@ -19,6 +19,7 @@ DOMAIN-SUFFIX,licard.com
 DOMAIN-SUFFIX,tricolor.tv
 
 # Misc
+DOMAIN-SUFFIX,habr.com
 DOMAIN-SUFFIX,wylsa.com
 DOMAIN-SUFFIX,wishmaster.me
 DOMAIN-SUFFIX,quantum-a.io
