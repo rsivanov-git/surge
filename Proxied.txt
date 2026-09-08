@@ -1,7 +1,3 @@
-# Blocked russian sites
-DOMAIN-SUFFIX,habr.ru
-DOMAIN-SUFFIX,habr.com
-
 # Apple
 DOMAIN-SUFFIX,weatherkit.apple.com
 DOMAIN-SUFFIX,weather-analytics-events.apple.com
