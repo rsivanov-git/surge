@@ -28,3 +28,4 @@ DOMAIN-SUFFIX,imdt.pro
 DOMAIN-SUFFIX,fintechru.org
 DOMAIN-SUFFIX,rozetked.me
 DOMAIN-SUFFIX,curator.pro
+DOMAIN-SUFFIX,netcraze.cloud
