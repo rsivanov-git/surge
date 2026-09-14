@@ -29,3 +29,4 @@ DOMAIN-SUFFIX,fintechru.org
 DOMAIN-SUFFIX,rozetked.me
 DOMAIN-SUFFIX,curator.pro
 DOMAIN-SUFFIX,netcraze.cloud
+DOMAIN-SUFFIX,moscowtransport.app
