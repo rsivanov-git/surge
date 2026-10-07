@@ -1,5 +1,5 @@
 #!name=Goutube
-#!desc=Transparently rewrite shared YouTube video and playlist requests to clean goutu.be preview URLs. Requires HTTPS MITM. Does not change share-sheet or clipboard text.
+#!desc=Transparently rewrite shared YouTube video, playlist and shared community-post requests to clean goutu.be preview URLs. Requires HTTPS MITM. Does not change share-sheet or clipboard text.
 
 # Short links and Shorts/live/embed links become canonical Goutube watch links.
 # Watch and playlist URLs are rewritten only when marked as shared (si or feature=shared).
@@ -14,6 +14,11 @@
 ^https?://(?:(?:www|m)\.)?youtube\.com/watch\?(?=(?:[^&#]*&)*(?:si=[^&#]+|feature=shared)(?:&|#|$))(?:[^&#]*&)*v=([A-Za-z0-9_-]{11})(?:&[^#]*)?(?:#.*)?$ https://goutu.be/watch?v=$1 header
 
 ^https?://(?:(?:www|m)\.)?youtube\.com/playlist\?(?=(?:[^&#]*&)*(?:si=[^&#]+|feature=shared)(?:&|#|$))(?:[^&#]*&)*list=([A-Za-z0-9_-]+)(?:&[^#]*)?(?:#.*)?$ https://goutu.be/playlist?list=$1 header
+
+# Shared community posts: preserve the post ID and remove query parameters.
+# Plain post URLs remain untouched to avoid return-to-YouTube rewrite loops.
+# Goutube backend post-preview support is required; currently not implemented.
+^https?://(?:(?:www|m)\.)?youtube\.com/post/(Ug[A-Za-z0-9_-]+)/?\?(?=(?:[^&#]*&)*(?:si=[^&#]+|is=[^&#]+|feature=shared)(?:&|#|$))[^#]*(?:#.*)?$ https://goutu.be/post/$1 header
 
 [MITM]
 hostname = %APPEND% youtu.be, www.youtu.be, youtube.com, www.youtube.com, m.youtube.com
