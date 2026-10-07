@@ -10,8 +10,8 @@
 
 [URL Rewrite]
 ^https?://(?:www\.)?youtu\.be/([A-Za-z0-9_-]{11})/?(?:\?[^#]*)?(?:#.*)?$ https://goutu.be/watch?v=$1 302
-^https?://(?:(?:www|m|music)\.)?youtube\.com/(?:shorts|live|embed)/([A-Za-z0-9_-]{11})/?(?:\?[^#]*)?(?:#.*)?$ https://goutu.be/watch?v=$1 302
-^https?://(?:(?:www|m|music)\.)?youtube\.com/watch\?(?=(?:[^&#]*&)*(?:si=[^&#]+|feature=shared)(?:&|#|$))(?:[^&#]*&)*v=([A-Za-z0-9_-]{11})(?:&[^#]*)?(?:#.*)?$ https://goutu.be/watch?v=$1 302
+^https?://(?:(?:www|m)\.)?youtube\.com/(?:shorts|live|embed)/([A-Za-z0-9_-]{11})/?(?:\?[^#]*)?(?:#.*)?$ https://goutu.be/watch?v=$1 302
+^https?://(?:(?:www|m)\.)?youtube\.com/watch\?(?=(?:[^&#]*&)*(?:si=[^&#]+|feature=shared)(?:&|#|$))(?:[^&#]*&)*v=([A-Za-z0-9_-]{11})(?:&[^#]*)?(?:#.*)?$ https://goutu.be/watch?v=$1 302
 
 [MITM]
-hostname = %APPEND% youtu.be, www.youtu.be, youtube.com, www.youtube.com, m.youtube.com, music.youtube.com
+hostname = %APPEND% youtu.be, www.youtu.be, youtube.com, www.youtube.com, m.youtube.com
