@@ -15,9 +15,5 @@
 
 ^https?://(?:(?:www|m)\.)?youtube\.com/playlist\?(?=(?:[^&#]*&)*(?:si=[^&#]+|feature=shared)(?:&|#|$))(?:[^&#]*&)*list=([A-Za-z0-9_-]+)(?:&[^#]*)?(?:#.*)?$ https://goutu.be/playlist?list=$1 header
 
-# Community posts stay on YouTube; only upgrade HTTP to HTTPS.
-# Preserve the hostname, post ID and every query parameter.
-^http://((?:(?:www|m)\.)?youtube\.com/post/Ug[A-Za-z0-9_-]+/?(?:\?.*)?)$ https://$1 header
-
 [MITM]
 hostname = %APPEND% youtu.be, www.youtu.be, youtube.com, www.youtube.com, m.youtube.com
