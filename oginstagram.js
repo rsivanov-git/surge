@@ -3,18 +3,13 @@
 // because OGInstagram redirects human visitors back to Instagram.
 (function () {
   var headers = $request.headers || {};
-  function header(name) {
-    var keys = Object.keys(headers);
-    for (var i = 0; i < keys.length; i++) {
-      if (keys[i].toLowerCase() === name.toLowerCase()) return String(headers[keys[i]]);
-    }
-    return "";
-  }
+  var userAgent = String(headers["User-Agent"] || headers["user-agent"] || "");
+  var fetchMode = String(headers["Sec-Fetch-Mode"] || headers["sec-fetch-mode"] || "");
 
   var method = String($request.method || "GET").toUpperCase();
   if ((method !== "GET" && method !== "HEAD") ||
-      header("Sec-Fetch-Mode").toLowerCase() === "navigate" ||
-      !/(?:WhatsApp|Signal|facebookexternalhit|TelegramBot|Discordbot|LinkPreview)/i.test(header("User-Agent"))) {
+      fetchMode.toLowerCase() === "navigate" ||
+      !/(?:WhatsApp|Signal|facebookexternalhit|TelegramBot|Discordbot|LinkPreview)/i.test(userAgent)) {
     $done({});
     return;
   }
