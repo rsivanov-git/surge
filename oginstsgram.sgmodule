@@ -8,7 +8,7 @@
 # Private, age-restricted or expired content may not have a preview.
 
 [Script]
-oginstagram-preview = type=http-request,pattern=^https://(?:(?:www|m)\.)?instagram\.com/,script-path=https://raw.githubusercontent.com/rsivanov-git/surge/main/oginstagram.js,requires-body=false,timeout=5
+oginstagram-preview = type=http-request,engine=jsc,pattern=^https://(?:(?:www|m)\.)?instagram\.com/,script-path=https://raw.githubusercontent.com/rsivanov-git/surge/main/oginstagram.js,requires-body=false,timeout=5
 
 [MITM]
 hostname = %APPEND% instagram.com, www.instagram.com, m.instagram.com
