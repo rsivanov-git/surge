@@ -5,7 +5,7 @@
 
 # Short links and Shorts/live/embed links become canonical watch links.
 # Watch and playlist URLs are rewritten only when marked as shared (si or feature=shared).
-# Plain watch and playlist URLs must remain untouched: Goutube sends human visitors back to them.
+# Plain watch and playlist URLs must remain untouched.
 # Query parameters, including tracking, playlist context and timestamps, are removed.
 # HTTPS requires an enabled MITM engine and an installed, trusted Surge CA.
 # Apps with certificate pinning or links opened directly in YouTube may bypass this.
