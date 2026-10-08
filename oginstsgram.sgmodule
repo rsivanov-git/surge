@@ -1,0 +1,14 @@
+#!name=OGInstagram
+#!desc=Route Instagram post, Reel, profile and story preview requests to oginstagram.com. Requires HTTPS MITM. Keeps original links in messages.
+
+# Signal uses WhatsApp/2 for link previews.
+# Preview requests are rewritten; normal browser/app requests pass through to avoid redirect loops.
+# Tracking parameters are removed; img_index is preserved for carousel posts.
+# Requires an enabled rewrite/script engine and an installed, trusted Surge CA.
+# Private, age-restricted or expired content may not have a preview.
+
+[Script]
+oginstagram-preview = type=http-request,pattern=^https://(?:(?:www|m)\.)?instagram\.com/,script-path=https://raw.githubusercontent.com/rsivanov-git/surge/main/oginstagram.js,requires-body=false,timeout=5
+
+[MITM]
+hostname = %APPEND% instagram.com, www.instagram.com, m.instagram.com
