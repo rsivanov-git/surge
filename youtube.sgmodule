@@ -5,12 +5,14 @@
 
 # Short links and Shorts/live/embed links become canonical watch links.
 # Watch and playlist URLs are rewritten only when marked as shared (si or feature=shared).
-# Plain watch and playlist URLs must remain untouched.
+# Plain watch and playlist URLs must remain untouched, except music.youtube.com watch links.
+# YouTube Music watch links use goutu.be, including links without share markers.
 # Query parameters, including tracking, playlist context and timestamps, are removed.
 # HTTPS requires an enabled MITM engine and an installed, trusted Surge CA.
 # Apps with certificate pinning or links opened directly in YouTube may bypass this.
 
 [URL Rewrite]
+^https?://music\.youtube\.com/watch\?(?:[^&#]*&)*v=([A-Za-z0-9_-]{11})(?:&[^#]*)?(?:#.*)?$ https://goutu.be/watch?v=$1 header
 ^https?://(?:www\.)?youtu\.be/([A-Za-z0-9_-]{11})/?(?:\?[^#]*)?(?:#.*)?$ https://{{{DOMAIN}}}/watch?v=$1 header
 ^https?://(?:(?:www|m)\.)?youtube\.com/(?:shorts|live|embed)/([A-Za-z0-9_-]{11})/?(?:\?[^#]*)?(?:#.*)?$ https://{{{DOMAIN}}}/watch?v=$1 header
 ^https?://(?:(?:www|m)\.)?youtube\.com/watch\?(?=(?:[^&#]*&)*(?:si=[^&#]+|feature=shared)(?:&|#|$))(?:[^&#]*&)*v=([A-Za-z0-9_-]{11})(?:&[^#]*)?(?:#.*)?$ https://{{{DOMAIN}}}/watch?v=$1 header
@@ -18,4 +20,4 @@
 ^https?://(?:(?:www|m)\.)?youtube\.com/playlist\?(?=(?:[^&#]*&)*(?:si=[^&#]+|feature=shared)(?:&|#|$))(?:[^&#]*&)*list=([A-Za-z0-9_-]+)(?:&[^#]*)?(?:#.*)?$ https://{{{DOMAIN}}}/playlist?list=$1 header
 
 [MITM]
-hostname = %APPEND% youtu.be, www.youtu.be, youtube.com, www.youtube.com, m.youtube.com
+hostname = %APPEND% youtu.be, www.youtu.be, youtube.com, www.youtube.com, m.youtube.com, music.youtube.com
