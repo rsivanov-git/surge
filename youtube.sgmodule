@@ -12,7 +12,7 @@
 # Apps with certificate pinning or links opened directly in YouTube may bypass this.
 
 [URL Rewrite]
-^https?://music\.youtube\.com/watch\?(?:[^&#]*&)*v=([A-Za-z0-9_-]{11})(?:&[^#]*)?(?:#.*)?$ https://goutu.be/watch?v=$1 header
+^https?://music\.youtube\.com/watch\?(?:[^&#]*&)*v=([A-Za-z0-9_-]{11})(?:&[^#]*)?(?:#.*)?$ https://{{{DOMAIN}}}/watch?v=$1 header
 ^https?://(?:www\.)?youtu\.be/([A-Za-z0-9_-]{11})/?(?:\?[^#]*)?(?:#.*)?$ https://{{{DOMAIN}}}/watch?v=$1 header
 ^https?://(?:(?:www|m)\.)?youtube\.com/(?:shorts|live|embed)/([A-Za-z0-9_-]{11})/?(?:\?[^#]*)?(?:#.*)?$ https://{{{DOMAIN}}}/watch?v=$1 header
 ^https?://(?:(?:www|m)\.)?youtube\.com/watch\?(?=(?:[^&#]*&)*(?:si=[^&#]+|feature=shared)(?:&|#|$))(?:[^&#]*&)*v=([A-Za-z0-9_-]{11})(?:&[^#]*)?(?:#.*)?$ https://{{{DOMAIN}}}/watch?v=$1 header
