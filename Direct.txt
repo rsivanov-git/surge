@@ -34,3 +34,4 @@ DOMAIN-SUFFIX,moscowtransport.app
 DOMAIN-SUFFIX,tbank.global
 DOMAIN-SUFFIX,appsflyersdk.com
 DOMAIN-SUFFIX,softtravel.tech
+DOMAIN-SUFFIX,alfaonline.org
